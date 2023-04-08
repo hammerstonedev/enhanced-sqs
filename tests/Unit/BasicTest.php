@@ -12,5 +12,4 @@ class BasicTest extends Base
     {
         $this->assertTrue(false);
     }
-
 }

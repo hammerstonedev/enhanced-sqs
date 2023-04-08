@@ -13,7 +13,6 @@ class SqsConnector extends \Illuminate\Queue\Connectors\SqsConnector
     /**
      * Establish a queue connection.
      *
-     * @param array $config
      * @return \Illuminate\Contracts\Queue\Queue
      */
     public function connect(array $config)
@@ -32,5 +31,4 @@ class SqsConnector extends \Illuminate\Queue\Connectors\SqsConnector
             $config['after_commit'] ?? null
         );
     }
-
 }
